@@ -4,13 +4,16 @@ Roo
 Passos para criação desta aplicação:
 
 <b>1- Criando a pasta do projeto:<b><br />
+
 	$ mkdir NameApplication <br />
 	$ cd NameApplication <br />
 	
 <b>2- Acessando o gerenciador do Spring Roo:<b><br />
+
 	$ roo
 
 <b>3- Download dos add-ons do springRoo:<b><br />
+
 	roo> download accept terms of use
 
 <b>4- Criação do projeto:<b>
@@ -51,15 +54,16 @@ Passos para criação desta aplicação:
 	roo> web mvc json setup
 	roo> web mvc json all
 
-<b>9- Criação da aplicação web:<b><br />
+<b>10- Criação da aplicação web:<b><br />
+
 	roo> web mvc setup<br />
 	roo> web mvc all --package ~.web<br />
 	
-<b>10- Sair do gente de configuração do Spring Roo:<b><br />
+<b>11- Sair do gente de configuração do Spring Roo:<b><br />
 
 	roo> exit
 
-<b>11- Configuração do arquivo de configuração da base de dados:<b>
+<b>12- Configuração do arquivo de configuração da base de dados:<b>
 
 Será preciso criar a base de dados manualmente e disponibilizar os dados <b>de login, senha e nome da base ao arquivo<b><em>database.properties</em> localizado em NomeProjeto/src/main/resources/META-INF/spring.
 
@@ -70,14 +74,13 @@ Exemplo: Se o sgbd escolhido na opção 5 foi o mysql:
 	database.username=<b><em>root<b></em>
 	database.password=<b><em>s3cr3t<b></em>
 
-<b>12- Execução da aplicação web:<b>
+<b>13- Execução da aplicação web:<b>
 
 	$ mvn package jetty:run
 
-<b>13- Para acessar a aplicação digite no browser:<br />
+<b>14- Para acessar a aplicação digite no browser:<br />
 	
 	http://localhost:8080/NameApplication/:
-
 
 
 <h2>Tutorial Baseado no material disponibilizado pelo professor da Universidade Federal da Paraíba - <b>Rodrigo de Almeida Vilar de Miranda</b>.</h2>
