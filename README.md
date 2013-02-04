@@ -5,14 +5,14 @@ Passos para criação desta aplicação:
 
 <b>1- Criando a pasta do projeto:<b><br />
 
-	$ mkdir NameApplication <br />
-	$ cd NameApplication <br />
+	$ mkdir NameApplication
+	$ cd NameApplication
 	
 <b>2- Acessando o gerenciador do Spring Roo:<b><br />
 
 	$ roo
 
-<b>3- Download dos add-ons do springRoo:<b><br />
+<b>3- Download dos add-ons do Spring Roo:<b><br />
 
 	roo> download accept terms of use
 
@@ -59,20 +59,20 @@ Passos para criação desta aplicação:
 	roo> web mvc setup<br />
 	roo> web mvc all --package ~.web<br />
 	
-<b>11- Sair do gente de configuração do Spring Roo:<b><br />
+<b>11- Sair do agente de configuração do Spring Roo:<b><br />
 
 	roo> exit
 
 <b>12- Configuração do arquivo de configuração da base de dados:<b>
 
-Será preciso criar a base de dados manualmente e disponibilizar os dados <b>de login, senha e nome da base ao arquivo<b><em>database.properties</em> localizado em NomeProjeto/src/main/resources/META-INF/spring.
+Será preciso criar a base de dados manualmente e disponibilizar os dados de <b>login, senha e nome da base ao arquivo</b> <em>database.properties</em> localizado em <em>NomeProjeto/src/main/resources/META-INF/spring</em>.
 
 Exemplo: Se o sgbd escolhido na opção 5 foi o mysql:
 
 	database.driverClassName=com.mysql.jdbc.Driver
 	database.url=jdbc\:mysql\://localhost\:3306/NameOfDataBase
-	database.username=<b><em>root<b></em>
-	database.password=<b><em>s3cr3t<b></em>
+	database.username=root
+	database.password=s3cr3t
 
 <b>13- Execução da aplicação web:<b>
 
@@ -80,10 +80,10 @@ Exemplo: Se o sgbd escolhido na opção 5 foi o mysql:
 
 <b>14- Para acessar a aplicação digite no browser:<br />
 	
-	http://localhost:8080/NameApplication/:
+	http://localhost:8080/NameApplication/
 
 
-<h2>Tutorial Baseado no material disponibilizado pelo professor da Universidade Federal da Paraíba - <b>Rodrigo de Almeida Vilar de Miranda</b>.</h2>
+<h4>Tutorial Baseado no material disponibilizado pelo professor Rodrigo de Almeida Vilar de Mirandada - Universidade Federal da Paraíba.</h4>
 
 
 
