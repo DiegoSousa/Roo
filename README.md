@@ -56,8 +56,8 @@ Passos para criação desta aplicação:
 
 <b>10- Criação da aplicação web:<b><br />
 
-	roo> web mvc setup<br />
-	roo> web mvc all --package ~.web<br />
+	roo> web mvc setup
+	roo> web mvc all --package ~.web
 	
 <b>11- Sair do agente de configuração do Spring Roo:<b><br />
 
@@ -65,9 +65,9 @@ Passos para criação desta aplicação:
 
 <b>12- Configuração do arquivo de configuração da base de dados:<b>
 
-Será preciso criar a base de dados manualmente e disponibilizar os dados de <b>login, senha e nome da base ao arquivo</b> <em>database.properties</em> localizado em <em>NomeProjeto/src/main/resources/META-INF/spring</em>.
+Será preciso criar a base de dados manualmente e disponibilizar os dados de <b>login, senha e nome da base</b> ao arquivo <em>database.properties</em> localizado em <em>nomeProjeto/src/main/resources/META-INF/spring</em>.
 
-Exemplo: Se o sgbd escolhido na opção 5 foi o mysql:
+<b>Exemplo:</b> Se o sgbd escolhido na opção 5 foi o mysql:
 
 	database.driverClassName=com.mysql.jdbc.Driver
 	database.url=jdbc\:mysql\://localhost\:3306/NameOfDataBase
@@ -83,7 +83,7 @@ Exemplo: Se o sgbd escolhido na opção 5 foi o mysql:
 	http://localhost:8080/NameApplication/
 
 
-<h4>Tutorial Baseado no material disponibilizado pelo professor Rodrigo de Almeida Vilar de Mirandada - Universidade Federal da Paraíba.</h4>
+<h3>Tutorial Baseado no material disponibilizado pelo professor Rodrigo de Almeida Vilar de Mirandada - Universidade Federal da Paraíba.</h3>
 
 
 
