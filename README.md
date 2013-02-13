@@ -83,7 +83,7 @@ Será preciso criar a base de dados manualmente e disponibilizar os dados de <b>
 	http://localhost:8080/NameApplication/
 
 
-<h3>Tutorial Baseado no material disponibilizado pelo professor Rodrigo de Almeida Vilar de Mirandada - Universidade Federal da Paraíba.</h3>
+<h3>Tutorial Baseado no material disponibilizado pelo professor Rodrigo de Almeida Vilar de Miranda - Universidade Federal da Paraíba- Campus IV.</h3>
 
 
 
