@@ -1,7 +1,7 @@
 Roo
 ===
 
-Passos para criação desta aplicação:
+Passos usados para criação desta aplicação:
 
 <b>1- Criando a pasta do projeto:<b><br />
 
