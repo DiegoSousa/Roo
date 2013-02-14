@@ -1,6 +1,8 @@
 Roo
 ===
 
+Download Roo: <a href="http://www.springsource.org/download/community?project=Spring%2520Roo">link<a/><br />
+
 Passos usados para criação desta aplicação:
 
 <b>1- Criando a pasta do projeto:<b><br />
